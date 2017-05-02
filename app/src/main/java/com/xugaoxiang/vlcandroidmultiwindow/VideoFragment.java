@@ -99,7 +99,7 @@ public class VideoFragment extends Fragment implements SurfaceHolder.Callback, I
 			list.clear();
 			list.add(new Media(libvlc, LibVLC.PathToURI(media)), false);
 			libvlc.playIndex(0);
-			mute();
+//			mute();
 		} catch (Exception e) {
 			Log.e(TAG, e.toString());
 			Toast.makeText(mContext, "Error creating player!", Toast.LENGTH_LONG).show();
@@ -168,10 +168,10 @@ public class VideoFragment extends Fragment implements SurfaceHolder.Callback, I
 	}
 
 	private void setSize(int width, int height) {
-		if (libvlc != null) {
-			libvlc.closeAout();
-			libvlc.setVolume(0);
-		}
+//		if (libvlc != null) {
+//			libvlc.closeAout();
+//			libvlc.setVolume(0);
+//		}
 
 		// Dimensions of the native video
 		mVideoWidth = width;
@@ -217,7 +217,6 @@ public class VideoFragment extends Fragment implements SurfaceHolder.Callback, I
 	}
 	
 	@Override
-	
 	public void onResume(){
 		Log.d(TAG, "onResume");
 		super.onResume();
