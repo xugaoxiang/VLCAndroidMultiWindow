@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        String video = "udp://@224.0.0.3:9000";
-        String video1 = "udp://@224.0.0.2:9000";
-        String video2 = "udp://@224.0.0.1:9000";
-        String video3 = "udp://@224.0.0.3:9000";
+        String video = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
+        String video1 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
+        String video2 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
+        String video3 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
 
         // add feed fragment to view
         this.showFragment(VideoFragment.newInstance(video), R.id.video_container);
