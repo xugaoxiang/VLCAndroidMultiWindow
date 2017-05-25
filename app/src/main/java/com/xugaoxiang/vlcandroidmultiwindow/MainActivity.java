@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String video = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
-        String video1 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
-        String video2 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
-        String video3 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
+        String video1 = "udp://@225.0.0.11:9001";
+        String video2 = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+        String video3 = "/storage/usb_storage/DJ/dhxy2.mp4";
 
         // add feed fragment to view
         this.showFragment(VideoFragment.newInstance(video), R.id.video_container);
