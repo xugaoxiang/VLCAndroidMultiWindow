@@ -14,9 +14,9 @@ Replace activity_main.xml with activity_main_pip.xml under layout folder
 
 ### How to compile vlc for android from source code? 
 
-<http://www.xugaoxiang.com/post/86>
+<https://xugaoxiang.com/2019/12/26/how-to-compile-vlc-for-android/>
 
 
 ### How to use the latest vlc(git version) in your android app?
 
-<http://www.xugaoxiang.com/post/85>
+<https://xugaoxiang.com/2019/12/26/mediaplayer-using-vlc-for-android/>
